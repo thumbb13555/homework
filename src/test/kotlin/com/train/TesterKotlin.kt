@@ -20,13 +20,6 @@ fun main(args:Array<String>){
     }while (totalTickets != -1)
     print("Finish")
 
-
-
-
-
-
-
-
 }
 
 
