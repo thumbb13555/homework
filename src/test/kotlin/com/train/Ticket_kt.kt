@@ -1,23 +1,23 @@
 package com.train
 
-class Ticket_kt(var total_tickets: Int,var round: Int) {
+class Ticket_kt(var totalTickets: Int,var round: Int) {
     init{
-        println(total_tickets)
+//        println(totalTickets)
     }
-    fun get_ticket():Int{
-        val sign_Tickets = total_tickets - round
-        var sign_tickets_price = sign_Tickets*1000
-        return sign_tickets_price
+    fun getTicket():Int{
+        val signTickets = totalTickets - round
+        var signTripPrice = signTickets*1000
+        return signTripPrice
     }
-    fun getRound_trip():Int{
-        val round_trip_price = round*2000*9/10
-        return round_trip_price
+    fun getRoundTrip():Int{
+        val roundTripPrice = round*2000*9/10
+        return roundTripPrice
     }
 
 
-    fun print(total_tickets:Int, round_trip:Int,total:Int){
-        println("Total tickets: $total_tickets")
-        println("Round-trip:  $round_trip")
+    fun print(totalTickets:Int, roundTrip:Int,total:Int){
+        println("Total tickets: $totalTickets")
+        println("Round-trip:  $roundTrip")
         println("Total: $total")
     }
 }
