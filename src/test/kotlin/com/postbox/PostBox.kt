@@ -24,7 +24,6 @@ fun main() {
         println("Box5")
     }
 
-
 }
 class Box5kt(inLength: Float,inWidth:Float,inHeight:Int):Box(inLength,inWidth,inHeight){}
 class Box3kt(inLength: Float,inWidth:Float,inHeight:Int):Box(inLength,inWidth,inHeight){}
